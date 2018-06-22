@@ -1,0 +1,22 @@
+{
+    "name": "upaid/contextual-keys",
+    "description": "This package provides a simple way to create contextual keys based on caller class, context, action and key. Useful for dedicated cache classes",
+    "type": "library",
+    "license": "MIT",
+    "version": "1.0.0",
+    "minimum-stability": "stable",
+    "homepage": "https://github.com/uPaid/contextual-keys",
+    "require-dev": {
+        "phpunit/phpunit": "~7.0"
+    },
+    "autoload": {
+        "psr-4": {
+	        "Upaid\\ContextualKeys\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Upaid\\ContextualKeys\\Tests\\": "tests/"
+        }
+    }
+}
